@@ -3,8 +3,24 @@
  	easing: 'slide'
  });
 
-// skill start
+ //scroll down
+ function scrollDown(pos){
+	var elem = document.getElementById(pos);
+	var target = elem.offsetTop;
+	 
+    var currPos=0;
+    var scroll=setInterval(function(){
+		if(currPos>=target)
+		{
+			clearInterval(scroll);
+			return;
+		}
+		currPos+=50;
+		window.scrollBy(0,50);
+    },10);
+}
 
+// skill start
 var progressBar=document.querySelectorAll('.skill-progress > div');
 var skillsContainer=document.getElementById('skill-container');
 window.addEventListener('scroll',checkScroll);

@@ -12,69 +12,128 @@
 	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/mystyle.css">
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	  
-	  
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">R</a>
-	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-	          <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
-	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-			  <li class="nav-item"><a href="#blog-section" class="nav-link"><span>Experience</span></a></li>
-			  <li class="nav-item"><a href="rohanCV.pdf" class="nav-link" target="_blank"><span>Resume</span></a></li>
-			  <li class="nav-item"><a href="#certification-section" class="nav-link"><span>Certification</span></a></li>
-			  
-	        </ul>
-	      </div>
-	    </div>
-	</nav>
-	<section id="home-section" class="hero">
-		  <div class="home-slider  owl-carousel">
-	      <div class="slider-item ">
-	      	<div class="overlay"></div>
-	        <div class="container">
-	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third order-md-last img" style="background-image:url(images/rohan.jpg);">
-	          		<div class="overlay"></div>
-	          	</div>
-		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
-		          		<span class="subheading">Hello</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Rohan Sharma</span></h1>
-			            <h2 class="mb-4">Undergraduate Computer Science Student <br>Jaypee University of Engineering & Technology <br>Guna</h2>
-					</div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
+	<div class="mynav" id="mynav">
+		<ul class="nav">
+			<li class="nav-item">
+				<a class="nav-link active" onclick="scrollDown(body-header)" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="#" onclick="scrollDown('about-section')" >About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="#" onclick="scrollDown('skills-section')" >Skills</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="#" onclick="scrollDown('blog-section')" >Experience</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="#" onclick="scrollDown('projects-section')" >Projects</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="rohanCV.pdf" target="_blank">Resume</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="#" onclick="scrollDown('certification-section')">Certification</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="#" onclick="scrollDown('contact-section')">Contact</a>
+			</li>
+	    </ul>
+	</div>
+	<header id="body-header" >
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">R</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+		  
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav mr-auto justify-content-center">
+				<li class="nav-item active">
+				  <a class="nav-link" href="#" onclick="scrollDown(body-header)">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#" onclick="scrollDown('about-section')">About <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#"  onclick="scrollDown('skills-section')">Skills <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#" onclick="scrollDown('blog-section')">Experience <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#" onclick="scrollDown('projects-section')">Projects <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="rohanCV.pdf">Resume<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#" onclick="scrollDown('certification-section')">Certification<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="#" onclick="scrollDown('contact-section')">Contact<span class="sr-only">(current)</span></a>
+				</li>
+			  </ul>
+			</div>
+		</nav>
+    <!-- //todo nav -->
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name">
+                    Rohan Sharma
+                </h1>
+            </div>
+            <div>
+                <ul class="horizontal-list text-center social-icons hide">
+                    <li>
+                        <a href="https://www.linkedin.com/in/rohan-sharmaa/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
 
-	      <div class="slider-item">
-	      	<div class="overlay"></div>
-	        <div class="container">
-	          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third order-md-last img" style="background-image:url(images/bg_1.jpg);">
-	          		<div class="overlay"></div>
-	          	</div>
-		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
-			            <h1 class="mb-4 mt-3">I'm a <span>Web & Software Developer </span> from India</h1>
-		            </div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
-	    </div>
-    </section>
-<!-- ################# -->
+                    <li>
+                        <a href="https://www.quora.com/profile/Rohan-Sharma-1115">
+                            <i class="fab fa-quora"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/rohansharma06">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/rohansharma09">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+        </div>
+    </header>
+	<!-- ---- start ediyt from here -----  -->
+	<section id="about">
+		<div id="my-image">
+			<img src="images/rohann.jpg">
+		</div>
+		<div id="about-para">
+			<p>Looking for a <span class="text-highlight">challenging</span> role in a reputable organization to utilize my <span class="text-highlight">technical and management</span> skills
+				for the <span class="text-highlight">growth</span> of the organization as well as to <span class="text-highlight">enhance my knowledge</span>  about new and emerging trends
+				in the IT sector. I am an <span class="text-highlight">energetic, ambitious</span>  person who has developed a mature and <span class="text-highlight">responsible</span>  approach for any task that I undertake, or 
+				situation that I am presented with. I am <span class="text-highlight"> Computer Science graduate </span> who loves <span class="text-highlight">programming</span>  with experience in the field of <span class="text-highlight">Development.</span> </p>
+		</div>
+	</section>
+	
+<!-- ################# main section start here  -->
     <section class="ftco-about ftco-counter img ftco-section" id="about-section">
     	<div class="container">
     		<div class="row d-flex">
@@ -90,15 +149,17 @@
 							<span class="subheading">Welcome</span>
 							<h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">About Me</h2>
 							<p><strong>Hi, my name is Rohan Sharma.</strong></p>
-							<p>I am an energetic,ambitious person who has developed a mature and responsible approach
-								to any task that I undertake, or situation that I am presented with. </p>
-							<p>  I am Fourth year undergraduate computer science student at Jaypee University of Engineering & Technology
-								Guna, Madhya Pradesh. </p>
+							<p>  I am Graduated from <span class="text-highlight" >Jaypee University of Engineering & Technology</span> 
+								Guna, Madhya Pradesh, in year 2020. </p>
 								
-							<p>I grew up in Delhi & did my secondry and senior secondry from 
-								Kendriya vIdyalaya Pitampura, Delhi.</p>
-							<h3 class="mb-4">Career Objective</h3>
-							<p>Looking for a challenging role in a reputable organization to utilize my technical, database, Web, and management skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT sector.</p>
+							<p>I grew up in Delhi and did my secondry and senior secondry from 
+								<span class="text-highlight"> Kendriya vIdyalaya Pitampura, </span>  Delhi.</p>
+
+							<p> I am <span class="text-highlight"> passionate </span>  about Programming and Development. </p>
+							<p> Active member of <span class="text-highlight"> student lead </span>  body at University which organize various <span class="text-highlight" >technical and cultural</span>  events in campus.</p>
+							<p>Loves to play <span class="text-highlight">sports</span>. Participate in various sports at University. </p>
+							<!-- <h3 class="mb-4">Career Objective</h3> -->
+							
 						</div>
 		        	</div>
 					<div class="counter-wrap ftco-animate d-flex mt-md-3">
@@ -181,9 +242,32 @@
 			</div>
 
 			<div class="skill-progress">
-				<div class="sixty-five-percent mb-light-purple" data-bar-width="65">
+				<div class="sixty-five-percent mb-light-purple" data-bar-width="70">
+					<div class="skill-name">
+						<span> NodeJs </span>
+					</div>
+				</div>
+			</div>
+
+			<div class="skill-progress">
+				<div class="eighty-five-percent mb-teal" data-bar-width="70">
+					<div class="skill-name">
+						<span> ExpressJs </span>
+					</div>
+				</div>
+			</div>
+
+			<div class="skill-progress">
+				<div class="eighty-percent mb-blue" data-bar-width="60">
 					<div class="skill-name">
 						<span> SQL </span>
+					</div>
+				</div>
+			</div>
+			<div class="skill-progress">
+				<div class="eighty-percent mb-orange" data-bar-width="70">
+					<div class="skill-name">
+						<span> MongoDB </span>
 					</div>
 				</div>
 			</div>
@@ -209,9 +293,10 @@
 								<h3 class="mb-5"><a href="#">Interest</a></h3>
 								<div style="text-align: left">
 									<h4>Web Development</h4>
-									<h4>Database Managment </h4>
+									<h4>Database Structure </h4>
 									<h4>Algorithm</h4>
 									<h4>Sports</h4>
+									<h4>Music</h4>
 								</div>
 							</div>
 						</div>
@@ -251,7 +336,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-lg-9 d-flex align-items-center ftco-animate">
-						<h2>I'm <span>Available</span> For Web & Software Developer Role. </h2>
+						<h2>I'm <span>Available</span> for Developer Role. </h2>
 					</div>
 					<div class="col-md-4 col-lg-3 d-flex align-items-center ftco-animate">
 						<p class="mb-0"><a href="#contact" class="btn btn-white py-4 px-5">Hire me</a></p>
@@ -260,6 +345,84 @@
 			</div>
 		</section>
  
+  <!-- EXperience -->
+  <section class="ftco-section bg-light" id="blog-section">
+	<div class="container">
+	  <div class="row justify-content-center mb-5 pb-5">
+		<div class="col-md-7 heading-section text-center ftco-animate">
+		  <span class="subheading">Experience</span>
+		  <h2 class="mb-4">My Experience</h2>
+		  <p>We learn from failure, not from success!&nbsp; &nbsp; &nbsp; &nbsp; <strong>- Bram Stoker </strong></p>
+		</div>
+	  </div>
+	  <div class="row d-flex">
+		  <div class="col-md-4 d-flex ftco-animate">
+			  <div class="blog-entry justify-content-end">
+			  <a href="#" class="block-20" style="background-image: url('images/ericsson.png');">
+			  </a>
+			  <div class="text mt-3 float-right d-block">
+				  <div class="d-flex align-items-center mb-3 meta">
+					<p class="mb-0">
+						<span class="mr-2">Feb 2020- Present</span>
+					</p>
+				</div>
+				<h3 class="heading">Intern at Ericsson</h3>
+				<ul style="margin: 0; padding: 5px;">
+					<li>Intern under the "Talent Development Program by Ericsson" on Telecom tech.</li>
+					<li>Part of BO Cloud Domain. Work on various OpenStack components to monitor and maintain various Ericsson cloud.</li>
+					<li style="list-style: none;"><a href="https://www.ericsson.com/en" target="_blank"> Ericsson</a></li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+
+		  <div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="single.html" class="block-20" style="background-image: url('images/codingninja.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+				<div class="d-flex align-items-center mb-3 meta">
+				  <p class="mb-0">
+					  <span class="mr-2">Jan-Aug 2020 </span>
+				  </p>
+			  </div>
+			  <h3 class="heading">Traning at Coding Ninjas</h3>
+			  <ul style="margin: 0; padding: 5px;">
+				<li>Having six months of intense training under the guidance of experienced professionals. This training covers concepts of Data Structure and Web Development.</li>
+				<li>Learn working and implementation of DS Algorithms and web technologies like reactjs, nodejs, expressjs and mongodb.</li>
+				<li style="list-style: none;" ><a href="https://www.codingninjas.com/" target="_blank">Coding Ninjas</a></li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+		  <div class="col-md-4 d-flex ftco-animate">
+			  <div class="blog-entry justify-content-end">
+			  <a href="#" class="block-20" style="background-image: url('images/orbit.png');">
+			  </a>
+			  <div class="text mt-3 float-right d-block">
+				  <div class="d-flex align-items-center mb-3 meta">
+					<p class="mb-0">
+						<span class="mr-2">May-July 2019</span>
+					</p>
+				</div>
+				<h3 class="heading">Intern at ORBIT Techsol India </h3>
+				<ul style="margin: 0; padding: 5px;">
+					<li>Work on a Component for the company to display details of different products using React.</li>
+					<li>Create React Card for different product which show info and price of that product.</li>
+					<li>Created eye catching and functional design to strengthen company brand and identity.</li>
+					<li style="list-style: none;"><a href="http://www.orbitindia.net/" target="_blank"> Orbit India</a></li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+
+		
+	   
+	  
+	  </div>
+	</div>
+  </section>
+
   <!-- PROJECT SECTION -->
     <section class="ftco-section ftco-project" id="projects-section">
     	<div class="container">
@@ -273,30 +436,40 @@
     		<div class="row">
 				<!-- 1st -->
     			<div class="col-md-8">
-    				<div class="project img ftco-animate img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/project/p1.jpg);">
+    				<div class="project img ftco-animate img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/project/superhero.JPG);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
-	    					<h3><a href="#">An Educational Website</a></h3>
-	    					<span>Web Design</span>
+							<h3><a href="https://rohansharma06.github.io/SuperHero-Arena/" target="_blank">An Intractive Website</a></h3>
+							</br>
+							<h3 style="color: aliceblue;">Display detail of SuperHeros. Search superhero by their name. Fetch data from an API.</h3>
+							</br>
+							<span>Click on title..</span>
 	    				</div>
     				</div>
     			</div>
     			<div class="col-md-4">
     				<div class="row">
     					<div class="col-md-12">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project/p2.jpg);">
+		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project/login.JPG);">
 		    					<div class="overlay"></div>
 			    				<div class="text text-center p-4">
-			    					<h3><a href="#">Login UI</a></h3>
-			    					<span>Web Design</span>
+									<h3><a href="https://github.com/rohansharma06/Nodejs-Authentication" target="_blank">Login UI</a></h3>
+									</br>
+									<h3 style="color: aliceblue;">Have google login/Sign-up and goole reChapcha feature.</h3>
+									</br>
+									<span>Click on title..</span>
 			    				</div>
 		    				</div>
 	    				</div>
 	    				<div class="col-md-12">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project/p5.jpg);">
+		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project/todo.JPG);">
 		    					<div class="overlay"></div>
 			    				<div class="text text-center p-4">
-			    					<h3><a href="#">Comming Soon... </a></h3>
+									<h3><a href="https://github.com/rohansharma06/ToDo_App">ToDo App </a></h3>
+									</br>
+									<h3 style="color: aliceblue;">Person keep track of his priorities every day.</h3>
+									</br>
+									<span>Click on title..</span>
 			    				</div>
 							</div>
 	    				</div>
@@ -306,93 +479,32 @@
 						<div class="project img ftco-animate img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/project/p3.jpg);">
 							<div class="overlay"></div>
 							<div class="text text-center p-4">
-								<h3><a href="#">Ristorante Website</a></h3>
-								<span>Web Design using React</span>
+								<h3><a href="https://github.com/rohansharma06/React" target="_blank">Ristorante Website</a></h3>
+								</br>
+								<h3 style="color: aliceblue;">A destination from where people can see menue of the restaurant and book his table.</h3>
+								</br>
+								<span>Click on title..</span>
 							</div>
 						</div>
 				</div>
 				<div class="col-md-6">
-						<div class="project img ftco-animate img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/project/p4.jpg);">
-							<div class="overlay"></div>
-							<div class="text text-center p-4">
-								<h3><a href="#">Fully Responsive Ristorante Website</a></h3>
-								<span>Web Design using Bootstrap 4</span>
-							</div>
+					<div class="project img ftco-animate img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/project/habitTracker.JPG);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://github.com/rohansharma06/Habit-Tracker" target="_blank">Habit-Tracker</a></h3>
+							</br>
+							<h3 style="color: aliceblue;">An application, which track you daily habit and user can also see track of previous six day.</h3>
+							</br>
+							<span>Click on title..</span>
 						</div>
+					</div>
 				</div>
 				
     		</div>
     	</div>
     </section>
 
-  <!-- EXperience -->
-    <section class="ftco-section bg-light" id="blog-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <span class="subheading">Experience</span>
-            <h2 class="mb-4">My Experience</h2>
-            <p>We learn from failure, not from success!&nbsp; &nbsp; &nbsp; &nbsp; <strong>- Bram Stoker </strong></p>
-          </div>
-        </div>
-        <div class="row d-flex">
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="#" class="block-20" style="background-image: url('images/image_3.jpg');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-					<div class="d-flex align-items-center mb-3 meta">
-					  <p class="mb-0">
-						  <span class="mr-2">Feb 2020- Present</span>
-					  </p>
-				  </div>
-				  <h3 class="heading">Intern at Ericsson</h3>
-				  <p>Intern under the "Talent Development Program by Ericsson" on Telecom tech.</br> Part of BO Cloud Domain. Work on various OpenStack components to monitor and maintain various Ericsson cloud. 
-				  </br> <a href="https://www.ericsson.com/en" target="_blank"> Ericsson</a></p>
-				</div>
-			  </div>
-			</div>
 
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="#" class="block-20" style="background-image: url('images/image_2.jpg');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-					<div class="d-flex align-items-center mb-3 meta">
-					  <p class="mb-0">
-						  <span class="mr-2">May-July 2019</span>
-					  </p>
-				  </div>
-				  <h3 class="heading">Intern at ORBIT India</h3>
-				  <p>Work on a Component for the company to display details of different products using React.</br> Created eye catching and functional design to strengthen
-					company brand and identity.
-				  </br> <a href="http://www.orbitindia.net/" target="_blank"> Orbit India</a></p>
-				</div>
-			  </div>
-			</div>
-
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-              	<div class="d-flex align-items-center mb-3 meta">
-	                <p class="mb-0">
-	                	<span class="mr-2">Dec 2018 - Jan 2019</span>
-	                </p>
-                </div>
-				<h3 class="heading">Intern at ANIMUS Projects</h3>
-				<p></p>
-				<p>Worked on a Web-Based Project which involved working on HTML5, CSS3 and JavaScript.</br>Developed a simple Login Form using different validation.
-				</br> <a href="http://animusprojects.in/" target="_blank">Animus Projects</a></p>
-              </div>
-            </div>
-          </div>
-         
-        
-        </div>
-      </div>
-	</section>
 	
 	<!-- certification section-->
     <section class="ftco-section contact-section ftco-no-pb" id="certification-section">
@@ -406,6 +518,19 @@
 	  </div>
 	  <div class="container">
 		<div class="row">
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/certification/cn.JPG);">
+							<div class="overlay"></div>
+							<div class="text text-center p-4">
+								<h3><a href="https://ninjasfiles.s3.amazonaws.com/certificate74591076d5a76e939facd13a8e55a0db7e1077.pdf" target="_blank">Click here to..</a></h3>
+								<span>Verify Certificate</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="col-md-4">
 				<div class="row">
 					<div class="col-md-12">
@@ -431,7 +556,9 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>	
+		</div>
+		<div class="row">
 			<div class="col-md-4">
 				<div class="row">
 					<div class="col-md-12">
@@ -444,9 +571,7 @@
 						</div>
 					</div>
 				</div>
-			</div>			
-		</div>
-		<div class="row">
+			</div>		
 			<div class="col-md-4">
 				<div class="row">
 					<div class="col-md-12">
@@ -478,7 +603,7 @@
 	</section>
 	<!-- certification section ends -->
 	
-	<footer class="footer ftco-footer">
+	<footer class="footer ftco-footer" id="contact-section">
 
 		<section id="contact">
             <h1 class="section-heading">
@@ -501,7 +626,7 @@
                 <div id="my-details-container">
 
                     <h3> Get In touch </h3>
-                    <p>Hi, my name is Rohan Sharma.I grew up in Delhi & did my secondry and senior secondry from Kendriya vIdyalaya Pitampura, Delhi.</p>
+                    <p>You can call me or send Mail.</p>
 
                     <h3> My Address </h3>
                     <div class="my-details-info-container">
@@ -510,7 +635,7 @@
                     </div>
                     <div class="my-details-info-container">
                         <i class="fas fa-mobile-alt"></i>
-                        <span>9999999999</span>
+                        <span>+91-7531885041</span>
                     </div>
                     <div class="my-details-info-container">
                         <i class="far fa-envelope"></i>
@@ -542,7 +667,7 @@
                     </li>
 
                     <li>
-                        <a href="https://www.facebook.com/rohansharma09">
+                        <a href="https://www.facebook.com/rohansharma09" target="_blank">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                     </li>
@@ -580,10 +705,20 @@
   
   <script src="js/main.js"></script>
   <script>
-	$('.navbar-collapse a').click(function(){
-		$(".navbar-collapse").collapse('hide');
-	});
-</script>
+		window.onscroll = function() {myFunc()};
+		var about = document.getElementById("about-section");
+		var nav = document.getElementById("mynav");
+		function myFunc(){
+		  if(window.pageYOffset >= about.offsetTop){
+			nav.classList.add("nav-color")
+		  }else{
+			nav.classList.remove("nav-color");
+		  }
+		}
+		var pos = document.getElementById("projects-section");
+		console.log("aboy",pos.offsetTop);
+	
+  </script>
 
     
   </body>
