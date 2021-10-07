@@ -1,3 +1,3 @@
 # My Portfolio
 
-### Hosted link: (https://rohansharma06.github.io/portfolio/)
+### Hosted link: (https://rohansharma06.github.io/myportfolio/)
