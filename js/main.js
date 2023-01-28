@@ -340,3 +340,54 @@ function CertyshowMore() {
     fixedContentPos: false,
   });
 })(jQuery);
+
+
+let companyData = {
+  "bng" : {
+    "title": "BlackNgreen",
+    "work": [
+      "Developing a user management system for enterprise applications.Creating a robust and customizable system for managing user accounts,roles,permissions, and payments.",
+      "Implementing role-based access control (RBAC) to ensure that only authorized users have access to certain features of the application. This included creating and managing userroles, and assigning roles.",
+      "Developing a sturdy system to build scalable and maintainable systems for storing data for various promotions (USSD, IVR, and SMS) for divergent customers.",
+      "Exposure: Java, Spring-Boot, microservices, RESTful API, security and SQL.",
+      "Developing Web flow for various services from where users can subscribe for service.",
+      "Responsible for creating an internal portal that will be used to blacklist and whitelist numbers during the various wap promotion.",
+      "Technologies: HTML, CSS, Javascript, PHP, and SQL."
+    ]
+  },
+  "zealth" : {
+    "title": "Zealth-AI",
+    "work": [
+      "Worked on the official product CareShare of Zealth-AI.",
+      "Developed the Reports uploading user interface for Zealth web app",
+      "Developed in-App notifications support for various features.",
+      "Created eye-catching and functional design to strengthen company brand and identity.",
+      "Technologies: HTML, CSS, and Javascript."
+    ]
+  },
+  "ericsson" : {
+    "title": "Ericsson",
+    "work": [
+      'Interned under the "Talent Development Program by Ericsson" on Telecom tech.',
+      "Part of BO Cloud Domain. Worked on various OpenStack components to monitor and maintain various Ericsson cloud."
+    ]
+  }
+};
+function shoeCompanyDetails(companyName){
+  let data = companyData[companyName];
+  let detailsArray = data["work"];
+  document.getElementById("companyModalLabel").innerHTML = data["title"];
+  
+  var ul = document.createElement('ul');
+  for(let i=0;i<detailsArray.length;i++){
+    let li = document.createElement('li');
+    li.innerHTML = detailsArray[i];
+    ul.appendChild(li);
+  }
+  // console.log(data["work"].length);
+
+  let workDetails = document.getElementById("workDetails");
+  workDetails.innerHTML = "";
+  workDetails.appendChild(ul);
+  document.getElementById("companyWorkBtn").click();
+}

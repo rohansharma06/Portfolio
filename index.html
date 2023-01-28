@@ -382,12 +382,8 @@
 			  </div>
 			  <h3 class="heading">Software Engineer</h3>
 			  <ul style="margin: 0; padding: 5px;">
-				<li>Currently working on designing and developing REST APIs using java spring-boot.</li>
-				<li>Developing fow for WEB and IVR promotions for various services using front-end technology HTML, CSS, Javascript, and PHP in the backend.</li>
-				<li>
-					Created an internal portal that will be used to blacklist or whitelist msisdn during the various promotion. Include functionality like add, delete or search msisdn from the database. <br>
-					Techstack used: HTML, CSS , Javascript, PHP and SQL.
-				</li>
+				<li>Developing a user management system for enterprise applications.Creating a robust and customizable system for managing user accounts,roles,permissions, and payments.</li>
+				<li> for more info <span style="color: #0075f6;cursor: pointer;" onclick="shoeCompanyDetails('bng')"><b>click here</b></span></li>
 			  </ul>
 			</div>
 		  </div>
@@ -406,11 +402,7 @@
 			  <h3 class="heading">Front-End Developer Intern </h3>
 			  <ul style="margin: 0; padding: 5px;">
 				  <li>Worked on the official product CareShare of Zealth-AI.</li>
-				  <li>Developed the Reports upload platform for Zealth web app.</li>
-				  <li>Developed in-App notifications support for various features.</li>
-				  <li>Created eye catching and functional design to strengthen company brand and identity.</li>
-				  <li>Techstack used: HTML, CSS and Javascript.</li>
-				  <!-- <li style="list-style: none;"><a href="https://zealth-ai.com/" target="_blank"> Zealth-ai</a></li> -->
+				  <li> for more info <span style="color: #0075f6;cursor: pointer;" onclick="shoeCompanyDetails('zealth')"><b>click here</b></span></li>
 			  </ul>
 			</div>
 		  </div>
@@ -429,8 +421,7 @@
 			  <h3 class="heading">Intern at Ericsson</h3>
 			  <ul style="margin: 0; padding: 5px;">
 				  <li>Interned under the "Talent Development Program by Ericsson" on Telecom tech.</li>
-				  <li>Part of BO Cloud Domain. Worked on various OpenStack components to monitor and maintain various Ericsson cloud.</li>
-				  <!-- <li style="list-style: none;"><a href="https://www.ericsson.com/en" target="_blank"> Ericsson</a></li> -->
+				  <li> for more info <span style="color: #0075f6;cursor: pointer;" onclick="shoeCompanyDetails('ericsson')"><b>click here</b></span></li>
 			  </ul>
 			</div>
 		  </div>
@@ -810,6 +801,25 @@
         
     </footer>
     
+	<!-- Company info modal -->
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#companyModal" style="display: none;" id="companyWorkBtn"></button>
+	<!-- Modal -->
+	<div class="modal fade" id="companyModal" tabindex="-1" role="dialog" aria-labelledby="companyModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+			<h5 class="modal-title" id="companyModalLabel">Modal title</h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			</div>
+			<div class="modal-body" id="workDetails">
+			<!-- insert using javascript -->
+			</div>
+		</div>
+		</div>
+	</div>
+	<!-- Company info modal ends -->
   
 
   <!-- loader -->
