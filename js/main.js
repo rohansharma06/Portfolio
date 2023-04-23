@@ -346,22 +346,24 @@ let companyData = {
   "bng" : {
     "title": "BlackNgreen",
     "work": [
-      "Developing a user management system for enterprise applications.Creating a robust and customizable system for managing user accounts,roles,permissions, and payments.",
-      "Implementing role-based access control (RBAC) to ensure that only authorized users have access to certain features of the application. This included creating and managing userroles, and assigning roles.",
-      "Developing a sturdy system to build scalable and maintainable systems for storing data for various promotions (USSD, IVR, and SMS) for divergent customers.",
-      "Exposure: Java, Spring-Boot, microservices, RESTful API, security and SQL.",
-      "Developing Web flow for various services from where users can subscribe for service.",
-      "Responsible for creating an internal portal that will be used to blacklist and whitelist numbers during the various wap promotion.",
-      "Technologies: HTML, CSS, Javascript, PHP, and SQL."
+      "Developing a robust and customizable user management system for enterprise applications, allowing efficient management of user accounts,roles,permissions.",
+      "Implementing role-based access control (RBAC) to ensure authorized user access to specific application features. Created and managed userroles, and effectively assigned roles to maintain security and confidentiality.",
+      "Developed a sturdy design to build scalable and maintainable systems for storing data for various promotions (USSD, IVR, and SMS) for divergent customers.",
+      "Exposure: Java, Spring-Boot, RESTful API, security and SQL.",
+      "Developed a zero balance platform that provides loans to users based on responses received from operators, ensuring seamless processing of loan requests. Implemented a high-performance system capable of handling 200 transactions per second (TPS) API calls, optimizing system performance and scalability.",
+      "Developed a campaign recommendation platform that analyzes multiple campaigns based on priorities and suggests the most suitable campaign for implementation, optimizing campaign performance and ROI. The system automates the execution of the selected campaign, ensuring smooth and efficient campaign operations.",
+      "Designed and implemented a user-friendly web flow for various services, allowing seamless subscription for services and enhancing user experience.",
+      "Took responsibility for creating an internal portal to blacklist and whitelist numbers and IPs during different wap promotions, enhancing data integrity and security.",
+      "Technologies: HTML, CSS, Javascript, PHP, and MYSQL."
     ]
   },
   "zealth" : {
     "title": "Zealth-AI",
     "work": [
-      "Worked on the official product CareShare of Zealth-AI.",
-      "Developed the Reports uploading user interface for Zealth web app",
-      "Developed in-App notifications support for various features.",
-      "Created eye-catching and functional design to strengthen company brand and identity.",
+      "Contributed to the development of CareShare, the official product of Zealth-AI, by creating functional and visually appealing userinterfaces.",
+      "Developed Reports uploading userinterface forthe Zealth app, enhancing data management and analysis capabilities.",
+      "Implemented in-App notifications support for various features, improving user engagement and experience.",
+      "Created eye-catching and functional designs that strengthen company brand and identity, showcasing creativity and attention to detail.",
       "Technologies: HTML, CSS, and Javascript."
     ]
   },

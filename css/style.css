@@ -447,7 +447,8 @@ pre {
   margin-left: auto; }
   @media (min-width: 576px) {
     .container {
-      max-width: 540px; } }
+      max-width: 540px; } 
+    }
   @media (min-width: 768px) {
     .container {
       max-width: 720px; } }
@@ -9754,4 +9755,10 @@ button:focus {
 .horizontal-list #nav-bar:hover{
   color: lightgrey;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  #companyModal {
+    width: 85% !important
+  } 
 }
