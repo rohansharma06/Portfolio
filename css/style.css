@@ -9569,27 +9569,48 @@ textarea.form-control {
 .mb-blue {
   background-color: #2857a4;
 }
-
 .mb-orange {
   background-color: #ff5722;
 }
-.mb-new {
-  background-color: #96c478;
-}
-
-
 .mb-teal {
   background-color: #009688;
 }
-
-.mb-light-purple {
-  background-color: #93738c;
-}
-.mb-purple {
+.mb-voilet {
   background-color: #5517c9;
 }
-.mb-lightgrey {
+.mb-pink{
+  background-color: #FF1493;
+}
+.mb-green {
+  background-color: #96c478;
+}
+.mb-purple {
+  background-color: #93738c;
+}
+.mb-grey {
   background-color: #666e6e;
+}
+.mb-red {
+  background-color: #FF0000;
+}
+.mb-olive {
+  background-color: #808000;
+}
+
+.mb-thistle {
+  background-color: #D8BFD8;
+}
+.mb-gold {
+  background-color: #FFD700;
+}
+.mb-aqua {
+  background-color: #00FFFF;
+}
+.mb-burlywood {
+  background-color: #DEB887;
+}
+.mb-forest-green {
+  background-color: #228B22;
 }
 
 /* contct us */
