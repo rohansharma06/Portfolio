@@ -346,7 +346,7 @@ let companyData = {
   "bng" : {
     "title": "BlackNgreen",
     "work": [
-      "Currently leading the development of a versatile backend infrastructure fora cross-platform application, optimizing user authentication, multilingual UI rendering, and seamless content delivery, encompassing trending multimedia.",
+      "Currently leading the development of a versatile backend infrastructure for a cross-platform application, optimizing user authentication, multilingual UI rendering, and seamless content delivery, encompassing trending multimedia.",
       "Implemented a customizable user management system for enterprise applications, optimizing efficiency in managing user accounts, roles, and permissions.",
       "Developed role-based access control(RBAC) mechanisms to ensure authorized access to application features, maintaining security and confidentiality effectively.",
       "Engineered a robust and scalable system design to efficiently store data for diverse promotions (USSD, IVR, and SMS), enhancing operational efficiency and ensuring maintainability across a wide spectrum of clientele.",
