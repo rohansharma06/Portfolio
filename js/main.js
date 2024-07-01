@@ -346,16 +346,33 @@ let companyData = {
   "bng" : {
     "title": "BlackNgreen",
     "work": [
-      "Currently leading the development of a versatile backend infrastructure for a cross-platform application, optimizing user authentication, multilingual UI rendering, and seamless content delivery, encompassing trending multimedia.",
-      "Implemented a customizable user management system for enterprise applications, optimizing efficiency in managing user accounts, roles, and permissions.",
-      "Developed role-based access control(RBAC) mechanisms to ensure authorized access to application features, maintaining security and confidentiality effectively.",
-      "Engineered a robust and scalable system design to efficiently store data for diverse promotions (USSD, IVR, and SMS), enhancing operational efficiency and ensuring maintainability across a wide spectrum of clientele.",
-      "Engineered a high-performance zero balance platform for seamless call balance loan processing, handling 100 transactions per second (TPS) API calls, and enhancing system performance and scalability.",
-      "Exposure: JAVA, Spring-Boot, Spring Security/JWT, JPA, Redis, Active MQ , RESTful API and MongoDB",
-      "Spearheaded the development of a campaign recommendation platform, improving campaign performance by 25 percent through effective prioritization strategies.",
-      "Designed and implemented user-friendly web flows for various services, enhancing subscription processes and overall user experience.",
-      "Led a cross-functional team to create an internal portal for dynamic blacklist and whitelist management during WAP promotions, reducing fraudulent activities by 50 percent and building customer trust.",
-      "Technologies: HTML, CSS, Javascript, PHP, and MYSQL."
+
+      "Engineered robust backend systems for user group management, achieving seamless business card creation and assignment, and ensuring efficient, error-free data handling.",
+
+      "Developed a high-efficiency CSV data ingestion system, utilizing optimized algorithms and multithreading. Achieved a 30% increase in data processing efficiency through stringent data length and content validations.",
+
+      "Led the implementation of scalable backend infrastructure for a cross-platform app, optimizing user authentication and multilingual UI rendering, ensuring seamless content delivery.",
+
+      "Directed streamlined processes for generating and storing original, thumbnail, and blurred images on AWS/local systems, adhering to specifications.",
+
+      "Implemented robust image access mechanisms with authenticated URLs, reducing unauthorized access by 80% and enforcing strict access control for verified users.",
+
+      "Created a highly customizable user management system, reducing user account setup time by 50% and administrative overhead by 40%.",
+
+      "Engineered role-based access control (RBAC) mechanisms, securing application features and ensuring authorized access.",
+
+      "Architected scalable systems for USSD, IVR, and SMS promotions, enhancing operational efficiency and maintainability for 10+ clients.",
+
+      "Developed a high-performance zero balance platform, streamlining call balance loan processing, and enhancing performance and scalability.",
+
+      "Mentored junior team members, fostering professional growth and a collaborative team environment.",
+      "Led cross-functional team to develop an internal portal for real-time blacklisting and whitelisting, reducing fraudulent activities by 40% and enhancing customer trust.",
+
+      "Designed user-centric web flows, increasing user engagement and satisfaction by 15%.",
+
+      "Developed a campaign recommendation platform, improving campaign performance by 25% through prioritization strategies.",
+
+      "Technologies: JAVA, Spring-Boot, Spring Security/JWT, JPA, Redis, Active MQ , RESTful API, HTML, CSS, Javascript, PHP, MYSQL and MongoDB.",
     ]
   },
   "zealth" : {
